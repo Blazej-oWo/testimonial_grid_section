@@ -8,6 +8,7 @@
 
   body{
     font-family:Barlow Semi Condensed, sans-serif,arial;
+    color:#fff;
   }
   section {
     margin:90px 40px;
@@ -21,6 +22,10 @@
       ". . . ."
     ;
   }
+  img {
+    border-radius: 30px;
+    margin:30px 30px;
+   }
   article {
     
     border:2px solid red;
@@ -36,9 +41,7 @@
     background-color: hsl(263, 55%, 52%);
     color:#fff;
    }
-   .grid_bar_f img {
-    border-radius: 30px;
-   }
+   
    .grid_bar_f span {
     font-size: 50px;
     font-family: BIZ UDGothic, sans-serif;
