@@ -41,10 +41,18 @@
     background-color: hsl(263, 55%, 52%);
     color:#fff;
    }
+   .grid_bar_f h2 {
+  
+   }
    
-   .grid_bar_f span {
-    font-size: 50px;
+   .rotate_item {
+    position: absolute;
+    font-size: 410px;
     font-family: BIZ UDGothic, sans-serif;
+    rotate:180deg;
+   top:-165px;
+   left:620px;
+   opacity: .5;
    }
    .grid_bar_s{
     grid-area: grid_bar_s;
