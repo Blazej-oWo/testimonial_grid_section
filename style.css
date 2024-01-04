@@ -8,7 +8,7 @@
 
   body{
     font-family:Barlow Semi Condensed, sans-serif,arial;
-    color:#fff;
+    color:hsl(0, 0%, 100%);
   }
   section {
     margin:90px 40px;
@@ -26,33 +26,37 @@
     border-radius: 30px;
     margin:30px 30px;
    }
-  article {
-    
+  article {    
     border:2px solid red;
     margin: 10px 10px;
     border-radius: 10px;
-    
-    
-  }
-  .grid_bar_f
-   {
+    }
+  .grid_bar_f{
     grid-area: grid_bar_f;
     height: 350px;
     background-color: hsl(263, 55%, 52%);
     color:#fff;
    }
-   .grid_bar_f h2 {
-  
+   .grid_bar_f h3 ,.grid_bar_f p {
+   color: hsl(0, 0%, 81%);
    }
-   
+   .grid_bar_f h2 {
+    color:hsl(210, 46%, 95%);
+   }
+   .grid_bar_t p, .grid_bar_t h4 {
+    color:hsl(219, 29%, 14%);
+   }
+   .grid_bar_t h2{
+    color: ;
+   }
    .rotate_item {
     position: absolute;
     font-size: 410px;
     font-family: BIZ UDGothic, sans-serif;
     rotate:180deg;
-   top:-165px;
-   left:620px;
-   opacity: .5;
+    top:-165px;
+    left:620px;
+    opacity: .5;
    }
    .grid_bar_s{
     grid-area: grid_bar_s;
@@ -63,11 +67,10 @@
    .grid_bar_t {
     grid-area: grid_bar_t;
    }
-   .grid_bar_fo
-{  
-  grid-area: grid_bar_fo;
-  background-color: hsl(219, 29%, 14%);
-}
+   .grid_bar_fo{  
+    grid-area: grid_bar_fo;
+    background-color: hsl(219, 29%, 14%);
+    }
    .grid_bar_fi{
     grid-area: grid_bar_fi;
     width: 300px;
