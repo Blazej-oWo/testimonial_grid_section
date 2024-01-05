@@ -23,8 +23,8 @@
     ;
   }
   img {
-    border-radius: 30px;
-    margin:30px 30px;
+    border-radius: 30px;    
+    position: absolute;   
    }
   article {    
     border:2px solid red;
@@ -37,12 +37,13 @@
     background-color: hsl(263, 55%, 52%);
     color:#fff;
    }
-   .grid_bar_f h3 ,.grid_bar_f p {
+    h3 ,.grid_bar_f p {
    color: hsl(0, 0%, 81%);
    }
    .grid_bar_f h2 {
     color:hsl(210, 46%, 95%);
    }
+   
    .grid_bar_t p, .grid_bar_t h4 {
     color:hsl(219, 29%, 14%);
    }
@@ -75,7 +76,20 @@
     grid-area: grid_bar_fi;
     width: 300px;
    }
-
+ .wrapper {
+  margin: 0 0;
+  position: relative;
+  margin:30px 30px;
+ }
+ .wrapper h2 , .wrapper h3{
+    margin:5px 70px;
+ }
+ h2 {
+  font-size: 16px;
+ }
+ h3 {
+  font-size: 13px;
+ }
    /* Footer */
    .attribution {
     margin:-320px auto;
