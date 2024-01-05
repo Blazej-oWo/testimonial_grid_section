@@ -11,15 +11,15 @@
     color:hsl(0, 0%, 100%);
   }
   section {
-    margin:90px 40px;
+    margin:90px 0px 40px 120px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap:11px 11px;   
     grid-template-areas: 
-      "grid_bar_f grid_bar_f grid_bar_s grid_bar_fi"
-      "grid_bar_t grid_bar_fo grid_bar_fo grid_bar_fi"
-      ". . . ."
+      ". grid_bar_f grid_bar_f grid_bar_s grid_bar_fi"
+      ".  grid_bar_t grid_bar_fo grid_bar_fo grid_bar_fi"
+      ". . . . ."
     ;
   }
   img {
@@ -37,8 +37,24 @@
     background-color: hsl(263, 55%, 52%);
     color:#fff;
    }
+   .grid_bar_s{
+    grid-area: grid_bar_s;
+    background-color: hsl(217, 19%, 35%);
+    }
+
+   .grid_bar_t {
+    grid-area: grid_bar_t;
+   }
+   .grid_bar_fo{  
+    grid-area: grid_bar_fo;
+    background-color: hsl(219, 29%, 14%);
+    }
+   .grid_bar_fi{
+    grid-area: grid_bar_fi;
+    width: 300px; }
+
     h3 ,.grid_bar_f p {
-   color: hsl(0, 0%, 81%);
+    color: hsl(0, 0%, 81%);
    }
    .grid_bar_f h2 {
     color:hsl(210, 46%, 95%);
@@ -59,33 +75,19 @@
     left:620px;
     opacity: .5;
    }
-   .grid_bar_s{
-    grid-area: grid_bar_s;
-    background-color: hsl(217, 19%, 35%);
-    
-   }
 
-   .grid_bar_t {
-    grid-area: grid_bar_t;
-   }
-   .grid_bar_fo{  
-    grid-area: grid_bar_fo;
-    background-color: hsl(219, 29%, 14%);
-    }
-   .grid_bar_fi{
-    grid-area: grid_bar_fi;
-    width: 300px;
    }
  .wrapper {
   margin: 0 0;
   position: relative;
-  margin:30px 30px;
+  margin:20px 30px;
  }
  .wrapper h2 , .wrapper h3{
     margin:5px 70px;
  }
  h2 {
   font-size: 16px;
+  
  }
  h3 {
   font-size: 13px;
