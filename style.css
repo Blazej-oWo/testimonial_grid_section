@@ -29,21 +29,22 @@
     width: 40px;
     height: 40px;
    }
-  article {    
-
+ 
+   article {    
     margin: 10px 10px;
     border-radius: 10px;
     }
+
   .grid_bar_f{
     grid-area: grid_bar_f;
     height: 350px;
     background-color: hsl(263, 55%, 52%);
     color:#fff;
    }
+
    .grid_bar_s{
     grid-area: grid_bar_s;
     background-color: hsl(217, 19%, 35%);
-  
     }
 
    .grid_bar_t {
@@ -52,21 +53,24 @@
     -moz-box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
     box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
    }
+
    .grid_bar_fo{  
     grid-area: grid_bar_fo;
     background-color: hsl(219, 29%, 14%);
     }
+
    .grid_bar_fi{
     grid-area: grid_bar_fi;
     width: 300px; 
     -webkit-box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
     -moz-box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
-    box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
+     box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
   }
 
     h3 ,.grid_bar_f p {
     color: hsl(0, 0%, 81%);
    }
+
    .grid_bar_f h2 {
     color:hsl(210, 46%, 95%);
    }
@@ -74,9 +78,15 @@
    .grid_bar_t p, .grid_bar_t h4 {
     color:hsl(219, 29%, 14%);
    }
-   .grid_bar_t h2{
-  
+
+   .grid_bar_fi h2 ,.grid_bar_fi h4, .grid_bar_fi p, .grid_bar_t h2{
+    color:hsl(217, 19%, 35%);
    }
+
+   .grid_bar_fo p, .grid_bar_s p{
+    color: hsl(0, 0%, 81%);
+   }
+
    .rotate_item {
     position: absolute;
     font-size: 410px;
@@ -87,37 +97,40 @@
     opacity: .5;
    }
 
-   
- .wrapper {
-  margin: 0 0;
-  position: relative;
-  margin:20px 30px;
- }
+   .wrapper {
+    margin: 0 0;
+    position: relative;
+    margin:20px 30px;
+    }
+
  .wrapper h2 {
-  position: absolute;
-  margin: 10px 0px 0px 65px;
- }
+    position: absolute;
+    margin: 10px 0px 0px 65px;
+    }
+
  .wrapper h3 {
   position: absolute;
   margin:30px 0px 0px 65px;
- 
- }
+  }
+
  h2 {
   font-size: 15px;
-  
-  
- }
+  }
+
  h3 {
   font-size: 13px;
  }
+
  h4 {
  margin:100px 0px 0px 35px;
  font-size: 23px;
  }
+
  p {
-  margin:10px 0px 0px 15px;
+  margin:30px 50px 0px 35px;
   font-size: 15px;
  }
+ 
    /* Footer */
    .attribution {
     margin:-320px auto;
