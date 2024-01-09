@@ -13,21 +13,24 @@
   section {
     margin:90px 0px 40px 120px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap:11px 11px;   
     grid-template-areas: 
-      ". grid_bar_f grid_bar_f grid_bar_s grid_bar_fi"
-      ".  grid_bar_t grid_bar_fo grid_bar_fo grid_bar_fi"
-      ". . . . ."
+      ". grid_bar_f grid_bar_f grid_bar_f grid_bar_s grid_bar_s grid_bar_fi"
+      ". grid_bar_t grid_bar_t grid_bar_fo grid_bar_fo grid_bar_fo grid_bar_fi"
+      ". . . . . . ."
     ;
   }
   img {
     border-radius: 30px;    
-    position: absolute;   
+    position: absolute; 
+    margin:5px 5px;  
+    width: 40px;
+    height: 40px;
    }
   article {    
-    border:2px solid red;
+
     margin: 10px 10px;
     border-radius: 10px;
     }
@@ -40,10 +43,14 @@
    .grid_bar_s{
     grid-area: grid_bar_s;
     background-color: hsl(217, 19%, 35%);
+  
     }
 
    .grid_bar_t {
     grid-area: grid_bar_t;
+    -webkit-box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
+    -moz-box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
+    box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
    }
    .grid_bar_fo{  
     grid-area: grid_bar_fo;
@@ -51,7 +58,11 @@
     }
    .grid_bar_fi{
     grid-area: grid_bar_fi;
-    width: 300px; }
+    width: 300px; 
+    -webkit-box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
+    -moz-box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
+    box-shadow: 6px 1px 24px 0px rgba(204, 205, 241, 1);
+  }
 
     h3 ,.grid_bar_f p {
     color: hsl(0, 0%, 81%);
@@ -64,7 +75,7 @@
     color:hsl(219, 29%, 14%);
    }
    .grid_bar_t h2{
-    color: ;
+  
    }
    .rotate_item {
     position: absolute;
@@ -76,21 +87,36 @@
     opacity: .5;
    }
 
-   }
+   
  .wrapper {
   margin: 0 0;
   position: relative;
   margin:20px 30px;
  }
- .wrapper h2 , .wrapper h3{
-    margin:5px 70px;
+ .wrapper h2 {
+  position: absolute;
+  margin: 10px 0px 0px 65px;
+ }
+ .wrapper h3 {
+  position: absolute;
+  margin:30px 0px 0px 65px;
+ 
  }
  h2 {
-  font-size: 16px;
+  font-size: 15px;
+  
   
  }
  h3 {
   font-size: 13px;
+ }
+ h4 {
+ margin:100px 0px 0px 35px;
+ font-size: 23px;
+ }
+ p {
+  margin:10px 0px 0px 15px;
+  font-size: 15px;
  }
    /* Footer */
    .attribution {
